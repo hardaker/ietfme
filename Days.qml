@@ -14,7 +14,7 @@ Page {
                            GradientStop { position: 1.0; color: "lightsteelblue" }
 		       }
                     }
-		    Text { id: theday; text: dayname; }
+		    Text { id: theday; text: dayname; font.pixelSize: 40 }
 		    MouseArea {
 		       anchors.fill: parent
 		       onClicked: { pages.push(agendaview); }
