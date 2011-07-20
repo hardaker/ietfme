@@ -1,6 +1,7 @@
 import QtQuick 1.0
 import Qt.labs.components.native 1.0
 
+Page {
   ListView {
       id: it
       anchors.fill: parent
@@ -32,3 +33,4 @@ import Qt.labs.components.native 1.0
 	 anchors { bottom: it.bottom }
       }
   }
+}
