@@ -22,5 +22,7 @@ Window {
        DayView {
           id: agendaview
        }
-       Component.onCompleted: pages.push(days);
+       Component.onCompleted: {
+         pages.push(days);
+       }
 }
