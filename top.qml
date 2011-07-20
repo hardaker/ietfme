@@ -10,11 +10,26 @@ Window {
            color: "white"
        }
 
-       Agenda {
-           id: agenda
+       PageStack {
+           id: pages
+	   anchors { fill: parent }
+       }
+       Days {
+           id: daystop
 	   anchors {
 	   	   fill: parent;
            }
        }
 
+       Page {
+            id: days
+            ListView {
+                model: DaysListModel { id: dayslist }
+                delegate: Text { text: dayname }
+       	 	width: parent.width
+       	 	height: parent.height
+            }
+       }
+
+       Component.onCompleted: pages.push(days);
 }
