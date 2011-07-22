@@ -19,6 +19,7 @@ Page {
         anchors.top:  daytitle.bottom
         width: parent.width
         pixelSize: 20
+        backvisible: false
     }
 
     ListView {
@@ -49,6 +50,7 @@ Page {
                         itemview.description = wgdescription
                         itemview.area = area
                         itemview.roomName = room
+                        itemview.slotname = slotview.slotname
 
                         pages.push(itemview);
                     }
@@ -66,6 +68,7 @@ Page {
                         itemview.description = wgdescription
                         itemview.area = area
                         itemview.roomName = room
+                        itemview.slotname = slotview.slotname
 
                         pages.push(itemview);
                     }

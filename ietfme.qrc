@@ -1,6 +1,7 @@
 <RCC>
     <qresource prefix="/">
         <file>logo-banner.png</file>
+        <file>back.png</file>
         <file>AgendaModel.qml</file>
         <file>Agenda.qml</file>
         <file>DaysListModel.qml</file>

@@ -9,6 +9,7 @@ Page {
     property alias description: description.text
     property alias roomName: roomName.text
     property alias area: area.text
+    property alias slotname: slottitle.text
 
     TitleBar {
         id: daytitle
@@ -16,16 +17,25 @@ Page {
         width: parent.width
     }
 
+    TitleBar {
+        id: slottitle
+        anchors.top:  daytitle.bottom
+        width: parent.width
+        pixelSize: 20
+        backvisible: false
+        text: ""
+    }
+
     Text {
         text: "WG:"
-        anchors.top:  daytitle.bottom
+        anchors.top:  slottitle.bottom
     }
 
     Text {
         id: itemWGName
         text: "test 1"
         x: 50
-        anchors.top:  daytitle.bottom;
+        anchors.top:  slottitle.bottom;
         MouseArea {
             anchors { fill: parent }
             onClicked: { pages.pop(); }
