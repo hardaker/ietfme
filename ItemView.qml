@@ -10,22 +10,10 @@ Page {
     property alias roomName: roomName.text
     property alias area: area.text
 
-    Rectangle {
-        anchors { top: parent.top }
-        width: parent.width
-        height: daytitle.height
-
-        gradient: Gradient {
-            GradientStop { position: 0.0; color: "white" }
-            GradientStop { position: 1.0; color: "lightsteelblue" }
-        }
-    }
-
-    Text {
+    TitleBar {
         id: daytitle
-        text: "title"
-        anchors { top: parent.top }
-        font.pixelSize: 40
+        anchors.top:  parent.top
+        width: parent.width
     }
 
     Text {

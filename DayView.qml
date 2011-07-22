@@ -9,7 +9,6 @@ Page {
 
     TitleBar {
         id:   daytitlex
-        text: "day"
         width: parent.width
         anchors { top: parent.top }
     }

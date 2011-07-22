@@ -8,39 +8,19 @@ Page {
     property alias slotname: slottitle.text
     anchors { fill: parent }
 
-    Rectangle {
-        anchors { top: parent.top }
-        width: parent.width
-        height: daytitle.height
-
-        gradient: Gradient {
-            GradientStop { position: 0.0; color: "white" }
-            GradientStop { position: 1.0; color: "lightsteelblue" }
-        }
-    }
-    Rectangle {
-        anchors { top: slottitle.top }
-        width: parent.width
-        height: slottitle.height
-
-        gradient: Gradient {
-            GradientStop { position: 0.0; color: "white" }
-            GradientStop { position: 1.0; color: "lightsteelblue" }
-        }
-    }
-
-    Text {
+    TitleBar {
         id: daytitle
-        text: "day"
-        anchors { top: parent.top }
-        font.pixelSize: 40
+        anchors.top:  parent.top
+        width: parent.width
     }
-    Text {
+
+    TitleBar {
         id: slottitle
-        text: "slot"
-        anchors { top: daytitle.bottom }
-        font.pixelSize: 20
+        anchors.top:  daytitle.bottom
+        width: parent.width
+        pixelSize: 20
     }
+
     ListView {
         id: slotviewlist
         height: parent.height
