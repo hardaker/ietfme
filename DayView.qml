@@ -43,7 +43,7 @@ Page {
             }
             Text {
                 id: whenid
-                text: when
+                text: when + "-" + end
                 MouseArea {
                     anchors { fill: parent }
                     onClicked: { pages.pop(); }

@@ -6,6 +6,7 @@ XmlListModel {
     query: "//slot"
 
     XmlRole { name: "when"; query: "start/string()" }
+    XmlRole { name: "end"; query: "end/string()" }
     XmlRole { name: "what"; query: "what/string()" }
 }
 
