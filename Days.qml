@@ -26,6 +26,7 @@ Page {
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
+                    agendaview.dayname = dayname
                     agendaview.query = "/ietfschedule/" + dayname + "/slot"
                     pages.push(agendaview);
                 }

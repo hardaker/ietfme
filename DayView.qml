@@ -4,9 +4,32 @@ import Qt.labs.components.native 1.0
 Page {
     id: agendaview
     property alias query: agendamodel.query
+    property alias dayname: daytitle.text
+    anchors { fill: parent }
+
+    Rectangle {
+        anchors { top: parent.top }
+        width: parent.width
+        height: daytitle.height
+
+        gradient: Gradient {
+            GradientStop { position: 0.0; color: "white" }
+            GradientStop { position: 1.0; color: "lightsteelblue" }
+        }
+    }
+
+    Text {
+        id: daytitle
+        text: "title"
+        anchors { top: parent.top }
+        font.pixelSize: 40
+    }
     ListView {
         id: it
-        anchors.fill: parent
+        height: parent.height
+        anchors {
+            top: daytitle.bottom
+        }
 
         delegate: Item {
             id: anitem
@@ -36,13 +59,6 @@ Page {
         }
         model: AgendaModel {
             id: agendamodel
-        }
-
-        Rectangle {
-            width: 20
-            height: 20
-            color: "red"
-            anchors { bottom: it.bottom }
         }
     }
 }
