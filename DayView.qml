@@ -3,6 +3,7 @@ import Qt.labs.components.native 1.0
 
 Page {
     id: agendaview
+    property alias query: agendamodel.query
     ListView {
         id: it
         anchors.fill: parent
@@ -33,7 +34,7 @@ Page {
             }
 
         }
-        model: AgendaModelBuilt {
+        model: AgendaModel {
             id: agendamodel
         }
 

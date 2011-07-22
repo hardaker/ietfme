@@ -25,7 +25,10 @@ Page {
             Text { id: theday; text: dayname; font.pixelSize: 40 }
             MouseArea {
                 anchors.fill: parent
-                onClicked: { pages.push(agendaview); }
+                onClicked: {
+                    agendaview.query = "/ietfschedule/" + dayname + "/slot"
+                    pages.push(agendaview);
+                }
             }
         }
         anchors { top: logo.bottom }
