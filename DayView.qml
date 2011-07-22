@@ -46,7 +46,7 @@ Page {
                 text: when + "-" + end
                 MouseArea {
                     anchors { fill: parent }
-                    onClicked: { pages.pop(); }
+                    onClicked: { pages.push(itemview); }
                 }
             }
             Text {
@@ -55,7 +55,7 @@ Page {
                 x: 100
                 MouseArea {
                     anchors { fill: parent }
-                    onClicked: { pages.pop(); }
+                    onClicked: { pages.push(itemview); }
                 }
             }
 

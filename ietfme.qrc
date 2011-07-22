@@ -7,6 +7,7 @@
         <file>DaysListModel.qml</file>
         <file>Days.qml</file>
         <file>DayView.qml</file>
+        <file>ItemView.qml</file>
         <file>Top.qml</file>
     </qresource>
 </RCC>
