@@ -44,16 +44,19 @@ Page {
             Text {
                 id: whenid
                 text: when
+                MouseArea {
+                    anchors { fill: parent }
+                    onClicked: { pages.pop(); }
+                }
             }
             Text {
                 id: whatid
                 text: what
                 x: 100
-            }
-
-            MouseArea {
-                anchors.fill: parent
-                onClicked: { pages.pop(); }
+                MouseArea {
+                    anchors { fill: parent }
+                    onClicked: { pages.pop(); }
+                }
             }
 
         }
