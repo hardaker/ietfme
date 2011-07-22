@@ -2,9 +2,10 @@ import QtQuick 1.0
 import Qt.labs.components.native 1.0
 
 Page {
-    id: agendaview
-    property alias query: agendamodel.query
+    id: slotview
+    property alias query: slotmodel.query
     property alias dayname: daytitle.text
+    property alias slotname: slottitle.text
     anchors { fill: parent }
 
     Rectangle {
@@ -17,51 +18,66 @@ Page {
             GradientStop { position: 1.0; color: "lightsteelblue" }
         }
     }
+    Rectangle {
+        anchors { top: slottitle.top }
+        width: parent.width
+        height: slottitle.height
+
+        gradient: Gradient {
+            GradientStop { position: 0.0; color: "white" }
+            GradientStop { position: 1.0; color: "lightsteelblue" }
+        }
+    }
 
     Text {
         id: daytitle
-        text: "title"
+        text: "day"
         anchors { top: parent.top }
         font.pixelSize: 40
     }
+    Text {
+        id: slottitle
+        text: "slot"
+        anchors { top: daytitle.bottom }
+        font.pixelSize: 20
+    }
     ListView {
-        id: it
+        id: slotviewlist
         height: parent.height
         anchors {
-            top: daytitle.bottom
+            top: slottitle.bottom
         }
 
         delegate: Item {
-            id: anitem
+            id: aslotitem
             width: parent.width
-            height: whenid.height
+            height: wgnameid.height
             Rectangle {
                 width: parent.width
-                height: parent.height
+                height: wgnameid.height
                 GradientStop { position: 0.0; color: "white" }
                 GradientStop { position: 1.0; color: "lightsteelblue" }
             }
             Text {
-                id: whenid
-                text: when + "-" + end
+                id: wgnameid
+                text: wgname
                 MouseArea {
                     anchors { fill: parent }
-                    onClicked: { pages.push(slotview); }
+                    onClicked: { pages.push(itemview); }
                 }
             }
             Text {
-                id: whatid
-                text: what
                 x: 100
+                id: wgdescriptionid
+                text: wgdescription
                 MouseArea {
                     anchors { fill: parent }
-                    onClicked: { pages.push(slotview); }
+                    onClicked: { pages.push(itemview); }
                 }
             }
-
         }
-        model: AgendaModel {
-            id: agendamodel
+        model: SlotModel {
+            id: slotmodel
         }
     }
 }

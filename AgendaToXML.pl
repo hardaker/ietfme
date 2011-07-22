@@ -13,12 +13,12 @@ while(<I>) {
     if (/^(.*)\s+([A-Z]{3})\s+(\w+)\s+(.*)/) {
 	my ($room, $area, $wgname, $wgdescription) = ($1, $2, $3, $4);
 
-	print "      <item>\n";
+	print "      <meeting>\n";
 	print "        <room>" . escapeHTML($room) . "</room>\n";
 	print "        <area>" . escapeHTML($area) . "</area>\n";
 	print "        <wgname>" . escapeHTML($wgname) . "</wgname>\n";
 	print "        <wgdescription>" . escapeHTML($wgdescription) . "</wgdescription>\n";
-	print "      </item>\n";
+	print "      </meeting>\n";
     }
     if (/^(saturday|sunday|monday|tuesday|wednesday|thursday|friday|sunday)/i) {
 	print "    </slot>\n" if ($slot);

@@ -21,12 +21,17 @@ Window {
           id: days
        }
 
-       ItemView {
-           id: itemview
-       }
 
        DayView {
           id: agendaview
+       }
+
+       SlotView {
+           id: slotview
+       }
+
+       ItemView {
+           id: itemview
        }
 
        Component.onCompleted: {

@@ -8,6 +8,8 @@
         <file>Days.qml</file>
         <file>DayView.qml</file>
         <file>ItemView.qml</file>
+        <file>SlotModel.qml</file>
+        <file>SlotView.qml</file>
         <file>Top.qml</file>
     </qresource>
 </RCC>
