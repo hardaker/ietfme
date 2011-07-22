@@ -10,7 +10,7 @@ open(I, "agenda.txt");
 while(<I>) {
     if (/^(saturday|sunday|monday|tuesday|wednesday|thursday|friday|sunday)/i) {
 	print "  </$day>\n" if (defined($day));
-	$day = $1;
+	$day = cap($1);
 	print "  <$day>\n";
     }
     if (/^(\d{4})-(\d{4})\s+(.*)/) {
@@ -23,3 +23,9 @@ while(<I>) {
 }
 print "  </$day>\n";
 print "</ietfschedule>\n";
+
+sub cap {
+    my ($it) = @_;
+    $it =~ s/^(.)(.*)/uc($1) . lc($2)/e;
+    return $it;
+}
