@@ -9,9 +9,9 @@ print "<ietfschedule>\n";
 open(I, "agenda.txt");
 while(<I>) {
     if (/^(saturday|sunday|monday|tuesday|wednesday|thursday|friday|sunday)/i) {
-	print "  </day>\n" if (defined($day));
+	print "  </$day>\n" if (defined($day));
 	$day = $1;
-	print "  <day name=\"$day\">\n";
+	print "  <$day>\n";
     }
     if (/^(\d{4})-(\d{4})\s+(.*)/) {
 	print "    <slot>\n";
@@ -21,5 +21,5 @@ while(<I>) {
 	print "    </slot>\n";
     }
 }
-print "  </day>\n";
+print "  </$day>\n";
 print "</ietfschedule>\n";
