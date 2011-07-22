@@ -1,11 +1,10 @@
-<!DOCTYPE RCC>
-<RCC version="1.0">
-<qresource>
-  <file>AgendaModel.qml</file>
-  <file>Agenda.qml</file>
-  <file>DaysListModel.qml</file>
-  <file>Days.qml</file>
-  <file>DayView.qml</file>
-  <file>Top.qml</file>
-</qresource>
+<RCC>
+    <qresource prefix="/qml">
+        <file>AgendaModel.qml</file>
+        <file>Agenda.qml</file>
+        <file>DaysListModel.qml</file>
+        <file>Days.qml</file>
+        <file>DayView.qml</file>
+        <file>Top.qml</file>
+    </qresource>
 </RCC>

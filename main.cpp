@@ -7,8 +7,8 @@ int main(int argc, char *argv[])
 
     QmlApplicationViewer viewer;
     viewer.setOrientation(QmlApplicationViewer::ScreenOrientationLockPortrait);
-    viewer.addImportPath(":/");
-    viewer.setMainQmlFile(":/Top.qml");
+    viewer.addImportPath(":/qml/");
+    viewer.setSource(QUrl("qrc:/qml/Top.qml"));
     viewer.showExpanded();
 
     return app.exec();
