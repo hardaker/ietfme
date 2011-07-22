@@ -63,7 +63,15 @@ Page {
                 text: wgname
                 MouseArea {
                     anchors { fill: parent }
-                    onClicked: { pages.push(itemview); }
+                    onClicked: {
+                        itemview.daytitle = daytitle.text
+                        itemview.itemWGName = wgname
+                        itemview.description = wgdescription
+                        itemview.area = area
+                        itemview.roomName = room
+
+                        pages.push(itemview);
+                    }
                 }
             }
             Text {
@@ -72,7 +80,15 @@ Page {
                 text: wgdescription
                 MouseArea {
                     anchors { fill: parent }
-                    onClicked: { pages.push(itemview); }
+                    onClicked: {
+                        itemview.daytitle = daytitle.text
+                        itemview.itemWGName = wgname
+                        itemview.description = wgdescription
+                        itemview.area = area
+                        itemview.roomName = room
+
+                        pages.push(itemview);
+                    }
                 }
             }
         }
