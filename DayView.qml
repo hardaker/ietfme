@@ -46,7 +46,12 @@ Page {
                 text: when + "-" + end
                 MouseArea {
                     anchors { fill: parent }
-                    onClicked: { pages.push(slotview); }
+                    onClicked: {
+                        slotview.dayname = agendaview.dayname
+                        slotview.slotname = what
+                        slotview.query = "/ietfschedule/" + dayname + "/slot[what='" + what + "']/meeting"
+                        pages.push(slotview);
+                    }
                 }
             }
             Text {
@@ -55,7 +60,12 @@ Page {
                 x: 100
                 MouseArea {
                     anchors { fill: parent }
-                    onClicked: { pages.push(slotview); }
+                    onClicked: {
+                        slotview.dayname = agendaview.dayname
+                        slotview.slotname = what
+                        slotview.query = "/ietfschedule/" + dayname + "/slot[what='" + what + "']/meeting"
+                        pages.push(slotview);
+                    }
                 }
             }
 
