@@ -36,10 +36,6 @@ Page {
         text: "test 1"
         x: 50
         anchors.top:  slottitle.bottom;
-        MouseArea {
-            anchors { fill: parent }
-            onClicked: { pages.pop(); }
-        }
     }
 
     Text {
@@ -52,10 +48,6 @@ Page {
         x: 50
         text: "about the WG"
         anchors.top: itemWGName.bottom
-        MouseArea {
-            anchors { fill: parent }
-            onClicked: { pages.pop(); }
-        }
     }
 
     Text {
@@ -68,10 +60,6 @@ Page {
         x: 50
         text: "room"
         anchors.top: description.bottom
-        MouseArea {
-            anchors { fill: parent }
-            onClicked: { pages.pop(); }
-        }
     }
 
     Text {
@@ -84,9 +72,5 @@ Page {
         x: 50
         text: "area"
         anchors.top: roomName.bottom
-        MouseArea {
-            anchors { fill: parent }
-            onClicked: { pages.pop(); }
-        }
     }
 }
