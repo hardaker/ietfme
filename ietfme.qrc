@@ -1,7 +1,6 @@
 <RCC>
-    <qresource prefix="">
+    <qresource prefix="/">
         <file>logo-banner.png</file>
-
         <file>AgendaModel.qml</file>
         <file>Agenda.qml</file>
         <file>DaysListModel.qml</file>
@@ -11,5 +10,6 @@
         <file>SlotModel.qml</file>
         <file>SlotView.qml</file>
         <file>Top.qml</file>
+        <file>TitleBar.qml</file>
     </qresource>
 </RCC>

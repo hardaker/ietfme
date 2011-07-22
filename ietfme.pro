@@ -33,4 +33,5 @@ include(qmlapplicationviewer/qmlapplicationviewer.pri)
 qtcAddDeployment()
 
 OTHER_FILES += \
-    ItemView.qml
+    ItemView.qml \
+    TitleBar.qml
