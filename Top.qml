@@ -3,8 +3,8 @@ import Qt.labs.components.native 1.0
 
 Window {
        id: top
-       height: 800
-       width:  400
+       height: 400
+       width:  800
 
        Rectangle {
            id: background

@@ -32,6 +32,4 @@ SOURCES += main.cpp
 include(qmlapplicationviewer/qmlapplicationviewer.pri)
 qtcAddDeployment()
 
-OTHER_FILES += \
-    ItemView.qml \
-    TitleBar.qml
+#OTHER_FILES += 

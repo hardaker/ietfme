@@ -4,7 +4,7 @@ import Qt.labs.components.native 1.0
 Page {
     Image {
         id: logo
-        source: "logo-banner.png"
+        source: "logo-banner-50.png"
         anchors {
             top: parent.top
             horizontalCenter: parent.horizontalCenter
@@ -22,7 +22,7 @@ Page {
                     GradientStop { position: 1.0; color: "lightsteelblue" }
                 }
             }
-            Text { id: theday; text: dayname; font.pixelSize: 40 }
+            Text { id: theday; text: dayname; font.pixelSize: 30 }
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
