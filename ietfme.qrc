@@ -12,5 +12,7 @@
         <file>SlotView.qml</file>
         <file>Top.qml</file>
         <file>TitleBar.qml</file>
+        <file>maps/maplv2.png</file>
+        <file>maps/maplv3.png</file>
     </qresource>
 </RCC>
