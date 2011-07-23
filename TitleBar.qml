@@ -25,7 +25,7 @@ Rectangle {
             right: parent.right
             verticalCenter: daytitletext.verticalCenter
         }
-        source: "back-24x24.png"
+        source: "back.png"
         MouseArea {
             anchors.fill: parent
             onClicked: { pages.pop(); }
@@ -36,6 +36,6 @@ Rectangle {
         id: daytitletext
         text: ""
         anchors { top: mytitle.top }
-        font.pixelSize: 30
+        font.pixelSize: 40
     }
 }
