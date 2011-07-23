@@ -35,7 +35,7 @@ Page {
     Text {
         id: itemWGName
         text: "test 1"
-        x: 50
+        x: 120
         anchors.top:  slottitle.bottom;
     }
 
@@ -46,7 +46,7 @@ Page {
 
     Text {
         id: description
-        x: 50
+        x: itemWGName.x
         text: "about the WG"
         anchors.top: itemWGName.bottom
     }
@@ -58,7 +58,7 @@ Page {
 
     Text {
         id: roomName
-        x: 50
+        x: itemWGName.x
         text: "room"
         anchors.top: description.bottom
     }
@@ -70,7 +70,7 @@ Page {
 
     Text {
         id: area
-        x: 50
+        x: itemWGName.x
         text: "area"
         anchors.top: roomName.bottom
     }

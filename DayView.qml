@@ -46,7 +46,7 @@ Page {
             Text {
                 id: whatid
                 text: what
-                x: 100
+                x: 120
                 MouseArea {
                     anchors { fill: parent }
                     onClicked: {
