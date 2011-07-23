@@ -33,5 +33,9 @@
         <file>maps/2101.png</file>
         <file>maps/2103.png</file>
 
+	<file>Window.qml</file>
+	<file>Page.qml</file>
+	<file>PageStack.qml</file>
+	<file>PageStack.js</file>
     </qresource>
 </RCC>

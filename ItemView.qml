@@ -1,5 +1,5 @@
 import QtQuick 1.0
-import Qt.labs.components.native 1.0
+//import Qt.labs.components.native 1.0
 
 Page {
     anchors { fill: parent }
@@ -28,7 +28,7 @@ Page {
         id: slottitle
         anchors.top:  daytitle.bottom
         width: parent.width
-        pixelSize: 20
+        //pixelSize: 20
         backvisible: false
         text: ""
     }
