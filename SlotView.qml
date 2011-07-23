@@ -1,5 +1,5 @@
 import QtQuick 1.0
-import Qt.labs.components.native 1.0
+//import Qt.labs.components.native 1.0
 
 Page {
     id: slotview
@@ -18,7 +18,7 @@ Page {
         id: slottitle
         anchors.top:  daytitle.bottom
         width: parent.width
-        pixelSize: 20
+        //pixelSize: 20
         backvisible: false
     }
 

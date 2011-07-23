@@ -2,7 +2,7 @@ import QtQuick 1.0
 
 Rectangle {
     id: mytitle
-    property alias pixelSize: daytitletext.font.pixelSize
+    //property alias pixelSize: daytitletext.font.pixelSize
     property alias text: daytitletext.text
     property alias backvisible: backbut.visible
     height: daytitletext.height
