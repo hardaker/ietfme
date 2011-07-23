@@ -10,8 +10,9 @@ print "<ietfschedule>\n";
 open(I, "agenda.txt");
 my $slot = 0;
 while(<I>) {
-    if (/^(.*)\s+([A-Z]{3})\s+(\w+)\s+(.*)/) {
+    if (/^(\d+(?: [A-F]+|))\s+([A-Z]{3})\s+(\w+)\s+(.*)/) {
 	my ($room, $area, $wgname, $wgdescription) = ($1, $2, $3, $4);
+	$room =~ s/\s*$//;
 
 	print "      <meeting>\n";
 	print "        <room>" . escapeHTML($room) . "</room>\n";
