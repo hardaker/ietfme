@@ -73,4 +73,12 @@ Page {
         text: "area"
         anchors.top: roomName.bottom
     }
+
+    Image {
+        id: map
+        anchors.top:  area.bottom
+        width: parent.width
+        source: "maps/maplv2.png"
+        fillMode: Image.PreserveAspectFit
+    }
 }
