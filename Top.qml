@@ -33,6 +33,7 @@ Window {
        ItemView {
            id: itemview
            roomName: parent.roomName
+           wgName: parent.wgName
        }
 
        Component.onCompleted: {

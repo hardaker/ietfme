@@ -5,11 +5,16 @@ Page {
     anchors { fill: parent }
 
     property alias daytitle: daytitle.text
-    property alias wgName: itemWGName.text
     property alias description: description.text
     property alias area: area.text
     property alias slotname: slottitle.text
+
+    property string wgName
     property string roomName
+
+    onWgNameChanged: { console.log("here ivew: " + wgName)
+        idview.wgName = wgName
+    }
 
     TitleBar {
         id: daytitle
@@ -33,7 +38,7 @@ Page {
 
     Text {
         id: itemWGName
-        text: "test 1"
+        text: wgName
         x: 120
         anchors.top:  slottitle.bottom;
     }
@@ -87,7 +92,7 @@ Page {
 
     ItemButton {
         id: draftsButton
-        text: "Drafts"
+        text: "Tracker"
         anchors.top:  area.bottom
         anchors.left: mapButton.right
         whereto: idview
@@ -111,6 +116,7 @@ Page {
 
     IdView {
         id: idview
+        wgName: wgName
     }
 
     Component.onCompleted: {
