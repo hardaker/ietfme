@@ -9,7 +9,6 @@ Page {
     property string webSuffix: "/"
 
     onWgNameChanged: {
-        console.log("here: " + wgName)
         idscrollstuff.wgName = wgName // for some reason auto-binding fails
     }
 

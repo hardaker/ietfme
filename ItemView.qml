@@ -12,8 +12,10 @@ Page {
     property string wgName
     property string roomName
 
-    onWgNameChanged: { console.log("here ivew: " + wgName)
+    onWgNameChanged: {
         idview.wgName = wgName
+        agendaview.wgName = wgName
+        txtagendaview.wgName = wgName
     }
 
     TitleBar {
@@ -98,6 +100,22 @@ Page {
         whereto: idview
     }
 
+    ItemButton {
+        id: wgButton
+        text: "HTML Agenda"
+        anchors.top:  area.bottom
+        anchors.left: draftsButton.right
+        whereto: agendaview
+    }
+
+    ItemButton {
+        id: wgTxtButton
+        text: "Text Agenda"
+        anchors.top:  area.bottom
+        anchors.left: wgButton.right
+        whereto: txtagendaview
+    }
+
     //
     // Pages
     //
@@ -117,6 +135,20 @@ Page {
     IETFWebView {
         id: idview
         wgName: wgName
+    }
+
+    IETFWebView {
+        id: agendaview
+        wgName: wgName
+        webPrefix: "http://www.ietf.org/proceedings/81/agenda/"
+        webSuffix: ".html"
+    }
+
+    IETFWebView {
+        id: txtagendaview
+        wgName: wgName
+        webPrefix: "http://www.ietf.org/proceedings/81/agenda/"
+        webSuffix: ".txt"
     }
 
     Component.onCompleted: {
