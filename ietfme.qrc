@@ -17,5 +17,16 @@
         <file>TitleBar.qml</file>
         <file>maps/maplv2.png</file>
         <file>maps/maplv3.png</file>
+
+        <file>maps/202.png</file>
+        <file>maps/204 A.png</file>
+        <file>maps/204 B.png</file>
+        <file>maps/205 ABC.png</file>
+        <file>maps/206 A.png</file>
+        <file>maps/206 B.png</file>
+        <file>maps/208 AB.png</file>
+        <file>maps/2101.png</file>
+        <file>maps/2103.png</file>
+
     </qresource>
 </RCC>
