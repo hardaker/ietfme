@@ -74,14 +74,57 @@ Page {
         anchors.top: roomName.bottom
     }
 
+    //
+    // Page buttons
+    //
+
+    Text {
+        id: mapButton
+        text: "Map"
+        anchors.top:  area.bottom
+        anchors.rightMargin: 5
+        MouseArea {
+            anchors.fill:  parent
+            onClicked: { itempages.push(mapview); }
+        }
+        //gradient: Gradient {
+        //    GradientStop { position: 0.0; color: "white" }
+        //    GradientStop { position: 1.0; color: "lightgrey" }
+        //}
+    }
+
+    Text {
+        id: draftsButton
+        text: "Drafts"
+        anchors.top:   mapButton.top
+        anchors.left:  mapButton.right
+        MouseArea {
+            anchors.fill:  parent
+            onClicked: { itempages.push(idview); }
+        }
+        //gradient: Gradient {
+         //   GradientStop { position: 0.0; color: "white" }
+         //   GradientStop { position: 1.0; color: "lightgrey" }
+        //}
+    }
+
+    //
+    // Pages
+    //
+
     PageStack {
         id: itempages
         width: parent.width
-        anchors.top: area.bottom
+        anchors.top: mapButton.bottom
+        z: -1
     }
 
     MapView {
        id: mapview
+    }
+
+    IdView {
+        id: idview
     }
 
     Component.onCompleted: {

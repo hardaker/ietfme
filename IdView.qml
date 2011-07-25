@@ -5,7 +5,6 @@ import QtWebKit 1.0
 Page {
     Flickable {
         id: scrollstuff
-        anchors.top:  area.bottom
         width: parent.width
         height: 600
         contentWidth: 1024
@@ -13,7 +12,6 @@ Page {
         z: -1
 
         WebView {
-            anchors.top:  map.bottom
             url: "https://datatracker.ietf.org/wg/"+ roomName.text + "/"
             preferredWidth: parent.width
             preferredHeight: 1280
