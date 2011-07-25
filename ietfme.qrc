@@ -18,6 +18,7 @@
         <file>ItemView.qml</file>
 	<file>MapView.qml</file>
 	<file>IdView.qml</file>
+	<file>ItemButton.qml</file>
 
         <file>maps/maplv2.png</file>
         <file>maps/maplv3.png</file>

@@ -78,34 +78,25 @@ Page {
     // Page buttons
     //
 
-    Text {
+    ItemButton {
         id: mapButton
         text: "Map"
         anchors.top:  area.bottom
-        anchors.rightMargin: 5
-        MouseArea {
-            anchors.fill:  parent
-            onClicked: { itempages.push(mapview); }
-        }
-        //gradient: Gradient {
-        //    GradientStop { position: 0.0; color: "white" }
-        //    GradientStop { position: 1.0; color: "lightgrey" }
-        //}
+        whereto: mapview
     }
 
-    Text {
+    ItemButton {
         id: draftsButton
         text: "Drafts"
-        anchors.top:   mapButton.top
-        anchors.left:  mapButton.right
-        MouseArea {
-            anchors.fill:  parent
-            onClicked: { itempages.push(idview); }
-        }
-        //gradient: Gradient {
-         //   GradientStop { position: 0.0; color: "white" }
-         //   GradientStop { position: 1.0; color: "lightgrey" }
-        //}
+        anchors.top:  area.bottom
+        anchors.left: mapButton.right
+        whereto: idview
+    }
+
+    ItemButton {
+        text: "test"
+        anchors.left: draftsButton.right
+        anchors.top:  area.bottom
     }
 
     //
