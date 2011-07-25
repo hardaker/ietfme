@@ -1,0 +1,41 @@
+IETFME: a simple IETF agenda viewer
+
+* About
+
+  Don't have an IPhone?  Feel left out?  Yeah, I thought not.  But
+  this is here if you want to play with it anyway
+
+  http://www.hardakers.net/code/ietfme/
+
+* Features:
+  + Displays an agenda by day
+  + Works when offline for:
+    + Agenda
+    + Maps
+  + Thes work when you're online:
+    + Agendas
+    + Tools page
+
+* Installation:
+  + Go to the download page:
+
+    http://www.hardakers.net/code/ietfme/download/
+
+  + Download the binary/package of your choice and run it
+
+* Getting the Code:
+
+  Git Repo:
+     http://github.com/hardaker/ietfme
+
+* Building notes
+
+  The code uses QML's more recent "PageStack" component, which doesn't
+  exist except in very recent versions of the QML stack.  The
+  /old-qml/ branch is a hack by using local (modified) copies of the
+  /Page.qml/ and /PageStack.qml/ objects.  They're not fully
+  compliant, but mostly-work.
+
+* The todo list:
+*** TODO enable line highlighting
+*** TODO sync a mobile with a desktop version
