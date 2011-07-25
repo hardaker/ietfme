@@ -1,0 +1,980 @@
+<ietfschedule>
+  <Saturday>
+    <slot>
+      <start>0930</start>
+      <end>1700</end>
+      <what>Code Sprint - 2000 D</what>
+    </slot>
+  </Saturday>
+  <Sunday>
+    <slot>
+      <start>1100</start>
+      <end>1900</end>
+      <what>IETF Registration - 2000 A</what>
+    </slot>
+    <slot>
+      <start>1000</start>
+      <end>1200</end>
+      <what>IEPG Meeting - 206 B</what>
+    </slot>
+    <slot>
+      <start>1300</start>
+      <end>1450</end>
+      <what>Newcomer's Training - 206 B</what>
+    </slot>
+    <slot>
+      <start>1300</start>
+      <end>1450</end>
+      <what>Working Group Leadership Tutorial - 206 A</what>
+    </slot>
+    <slot>
+      <start>1300</start>
+      <end>1450</end>
+      <what>Newcomer's Training (French) - 205 ABC</what>
+    </slot>
+    <slot>
+      <start>1400</start>
+      <end>1600</end>
+      <what>Apps Area Prepatory Meeting for Internationalization Working Groups - 2103</what>
+    </slot>
+    <slot>
+      <start>1500</start>
+      <end>1650</end>
+      <what>Tools for Creating Internet-Drafts Tutorial - 206 B</what>
+    </slot>
+    <slot>
+      <start>1500</start>
+      <end>1650</end>
+      <what>Bringing New Work to the IETF - 206 A</what>
+    </slot>
+    <slot>
+      <start>1600</start>
+      <end>1700</end>
+      <what>Newcomer's Meet and Greet (open to newcomers and WG chairs) - Verriere - 3rd Floor</what>
+    </slot>
+    <slot>
+      <start>1700</start>
+      <end>1900</end>
+      <what>Welcome Reception - 2000 ABC</what>
+    </slot>
+  </Sunday>
+  <Monday>
+    <slot>
+      <start>0800</start>
+      <end>1800</end>
+      <what>IETF Registration - 2000 A</what>
+    </slot>
+    <slot>
+      <start>0800</start>
+      <end>0900</end>
+      <what>Continental Breakfast - 2000 BC</what>
+    </slot>
+    <slot>
+      <start>0900</start>
+      <end>1130</end>
+      <what>Morning Session I</what>
+      <meeting>
+        <room>208 AB</room>
+        <area>APP</area>
+        <wgname>apparea</wgname>
+        <wgdescription>Applications Area Open Meeting  - Combined with APPSAWG, Moved FROM Thursday Afternoon Session II 1520-1720</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>APP</area>
+        <wgname>appsawg</wgname>
+        <wgdescription>Applications Area Working Group WG - Combined with APPAREA, Moved FROM Thursday Afternoon Session II 1520-1720</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>APP</area>
+        <wgname>httpauth</wgname>
+        <wgdescription>HTTP Authentication BOF - CANCELED</wgdescription>
+      </meeting>
+      <meeting>
+        <room>204 B</room>
+        <area>INT</area>
+        <wgname>multimob</wgname>
+        <wgdescription>Multicast Mobility WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2101</room>
+        <area>OPS</area>
+        <wgname>radext</wgname>
+        <wgdescription>RADIUS EXTensions WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>205 ABC</room>
+        <area>RAI</area>
+        <wgname>dispatch</wgname>
+        <wgdescription>Dispatch WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 B</room>
+        <area>RTG</area>
+        <wgname>mpls</wgname>
+        <wgdescription>Multiprotocol Label Switching WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>202</room>
+        <area>TSV</area>
+        <wgname>ippm</wgname>
+        <wgdescription>IP Performance Metrics WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2103</room>
+        <area>TSV</area>
+        <wgname>nfsv4</wgname>
+        <wgdescription>Network File System Version 4 WG</wgdescription>
+      </meeting>
+    </slot>
+    <slot>
+      <start>1130</start>
+      <end>1300</end>
+      <what>Break</what>
+    </slot>
+    <slot>
+      <start>1300</start>
+      <end>1500</end>
+      <what>Afternoon Session I</what>
+      <meeting>
+        <room>202</room>
+        <area>APP</area>
+        <wgname>websec</wgname>
+        <wgdescription>Web Security WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2101</room>
+        <area>INT</area>
+        <wgname>lisp</wgname>
+        <wgdescription>Locator/ID Separation Protocol WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 B</room>
+        <area>INT</area>
+        <wgname>trill</wgname>
+        <wgdescription>Transparent Interconnection of Lots of Links WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>205 ABC</room>
+        <area>OPS</area>
+        <wgname>multrans</wgname>
+        <wgdescription>Multicast Transition  BOF</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2103</room>
+        <area>OPS</area>
+        <wgname>netconf</wgname>
+        <wgdescription>Network Configuration WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>RAI</area>
+        <wgname>ecrit</wgname>
+        <wgdescription>Emergency Context Resolution with Internet Technologies WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>204 B</room>
+        <area>SEC</area>
+        <wgname>pkix</wgname>
+        <wgdescription>Public-Key Infrastructure (X.509) WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>TSV</area>
+        <wgname>ppsp</wgname>
+        <wgdescription>Peer to Peer Streaming Protocol WG</wgdescription>
+      </meeting>
+    </slot>
+    <slot>
+      <start>1510</start>
+      <end>1610</end>
+      <what>Afternoon Session II</what>
+      <meeting>
+        <room>2103</room>
+        <area>APP</area>
+        <wgname>repute</wgname>
+        <wgdescription>Reputation Services BOF</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>RAI</area>
+        <wgname>sipcore</wgname>
+        <wgdescription>Session Initiation Protocol Core WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2101</room>
+        <area>RTG</area>
+        <wgname>forces</wgname>
+        <wgdescription>Forwarding and Control Element Separation WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>202</room>
+        <area>RTG</area>
+        <wgname>isis</wgname>
+        <wgdescription>IS-IS for IP Internets WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>204 B</room>
+        <area>TSV</area>
+        <wgname>pcn</wgname>
+        <wgdescription>Congestion and Pre-Congestion Notification WG</wgdescription>
+      </meeting>
+    </slot>
+    <slot>
+      <start>1610</start>
+      <end>1630</end>
+      <what>Afternoon Beverage and Snack Break I - 2000 BC</what>
+    </slot>
+    <slot>
+      <start>1630</start>
+      <end>1930</end>
+      <what>Technical Plenary - 200 AB</what>
+    </slot>
+  </Monday>
+  <Tuesday>
+    <slot>
+      <start>0800</start>
+      <end>1800</end>
+      <what>IETF Registration - 2000 A</what>
+    </slot>
+    <slot>
+      <start>0800</start>
+      <end>0900</end>
+      <what>Continental Breakfast - 2000 BC</what>
+    </slot>
+    <slot>
+      <start>0900</start>
+      <end>1130</end>
+      <what>Morning Session I</what>
+      <meeting>
+        <room>2103</room>
+        <area>APP</area>
+        <wgname>eai</wgname>
+        <wgdescription>Email Address Internationalization WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>204 B</room>
+        <area>APP</area>
+        <wgname>httpbis</wgname>
+        <wgdescription>Hypertext Transfer Protocol Bis WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>205 ABC</room>
+        <area>OPS</area>
+        <wgname>v6ops</wgname>
+        <wgdescription>IPv6 Operations WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>RAI</area>
+        <wgname>geopriv</wgname>
+        <wgdescription>Geographic Location/Privacy WG - Combined with XMPP</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>RAI</area>
+        <wgname>xmpp</wgname>
+        <wgdescription>Extensible Messaging and Presence Protocol WG - Combined with GEOPRIV</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 B</room>
+        <area>RTG</area>
+        <wgname>ccamp</wgname>
+        <wgdescription>Common Control and Measurement Plane WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>202</room>
+        <area>TSV</area>
+        <wgname>tcpm</wgname>
+        <wgdescription>TCP Maintenance and Minor Extensions WG</wgdescription>
+      </meeting>
+    </slot>
+    <slot>
+      <start>1130</start>
+      <end>1300</end>
+      <what>Break</what>
+    </slot>
+    <slot>
+      <start>1300</start>
+      <end>1500</end>
+      <what>Afternoon Session I</what>
+      <meeting>
+        <room>204 B</room>
+        <area>APP</area>
+        <wgname>paws</wgname>
+        <wgdescription>Protocol to Access WS database WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>INT</area>
+        <wgname>pcp</wgname>
+        <wgdescription>Port Control Protocol WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>OPS</area>
+        <wgname>dnsop</wgname>
+        <wgdescription>Domain Name System Operations WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2101</room>
+        <area>OPS</area>
+        <wgname>netmod</wgname>
+        <wgdescription>NETCONF Data Modeling Language WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>205 ABC</room>
+        <area>RAI</area>
+        <wgname>rtcweb</wgname>
+        <wgdescription>Real-Time Communication in WEB-browsers WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2103</room>
+        <area>RTG</area>
+        <wgname>pim</wgname>
+        <wgdescription>Protocol Independent Multicast WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>202</room>
+        <area>SEC</area>
+        <wgname>emu</wgname>
+        <wgdescription>EAP Method Update WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 B</room>
+        <area>TSV</area>
+        <wgname>alto</wgname>
+        <wgdescription>Application-Layer Traffic Optimization WG</wgdescription>
+      </meeting>
+    </slot>
+    <slot>
+      <start>1500</start>
+      <end>1520</end>
+      <what>Afternoon Beverage and Snack Break I - 2000 BC</what>
+    </slot>
+    <slot>
+      <start>1520</start>
+      <end>1700</end>
+      <what>Afternoon Session II</what>
+      <meeting>
+        <room>205 ABC</room>
+        <area>INT</area>
+        <wgname>6man</wgname>
+        <wgdescription>IPv6 Maintenance WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2103</room>
+        <area>RAI</area>
+        <wgname>drinks</wgname>
+        <wgdescription>Data for Reachability of Inter/tra-NetworK SIP WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>204 B</room>
+        <area>RAI</area>
+        <wgname>soc</wgname>
+        <wgdescription>SIP Overload Control WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>RTG</area>
+        <wgname>manet</wgname>
+        <wgdescription>Mobile Ad-hoc Networks WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>202</room>
+        <area>RTG</area>
+        <wgname>pwe3</wgname>
+        <wgdescription>Pseudowire Emulation Edge to Edge WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>SEC</area>
+        <wgname>woes</wgname>
+        <wgdescription>Web Object Encryption and Signing BOF</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 B</room>
+        <area>TSV</area>
+        <wgname>decade</wgname>
+        <wgdescription>Decoupled Application Data Enroute WG</wgdescription>
+      </meeting>
+    </slot>
+    <slot>
+      <start>1710</start>
+      <end>1810</end>
+      <what>Afternoon Session III</what>
+      <meeting>
+        <room>2103</room>
+        <area>APP</area>
+        <wgname>vcarddav</wgname>
+        <wgdescription>vCard and CardDAV WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>204 B</room>
+        <area>APP</area>
+        <wgname>yam</wgname>
+        <wgdescription>Yet Another Mail WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>205 ABC</room>
+        <area>INT</area>
+        <wgname>6man</wgname>
+        <wgdescription>IPv6 Maintenance WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 B</room>
+        <area>RAI</area>
+        <wgname>raiarea</wgname>
+        <wgdescription>Real-time Applications and Infrastructure Area Open Meeting </wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>RTG</area>
+        <wgname>manet</wgname>
+        <wgdescription>Mobile Ad-hoc Networks WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>202</room>
+        <area>RTG</area>
+        <wgname>pwe3</wgname>
+        <wgdescription>Pseudowire Emulation Edge to Edge WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2101</room>
+        <area>TSV</area>
+        <wgname>storm</wgname>
+        <wgdescription>STORage Maintenance WG</wgdescription>
+      </meeting>
+    </slot>
+  </Tuesday>
+  <Wednesday>
+    <slot>
+      <start>0800</start>
+      <end>1700</end>
+      <what>IETF Registration - 2000 A</what>
+    </slot>
+    <slot>
+      <start>0800</start>
+      <end>0900</end>
+      <what>Continental Breakfast - 2000 BC</what>
+    </slot>
+    <slot>
+      <start>0900</start>
+      <end>1130</end>
+      <what>Morning Session I</what>
+      <meeting>
+        <room>206 B</room>
+        <area>APP</area>
+        <wgname>core</wgname>
+        <wgdescription>Constrained RESTful Environments WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>205 ABC</room>
+        <area>INT</area>
+        <wgname>softwire</wgname>
+        <wgdescription>Softwires WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2101</room>
+        <area>OPS</area>
+        <wgname>opsarea</wgname>
+        <wgdescription>Operations &amp; Management Area Open Meeting  - Combined with OPSAWG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2101</room>
+        <area>OPS</area>
+        <wgname>opsawg</wgname>
+        <wgdescription>Operations and Management Area Working Group WG - Combined with OPSAREA</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>RAI</area>
+        <wgname>avtcore</wgname>
+        <wgdescription>Audio/Video Transport Core Maintenance WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>RTG</area>
+        <wgname>idr</wgname>
+        <wgdescription>Inter-Domain Routing WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2103</room>
+        <area>SEC</area>
+        <wgname>oauth</wgname>
+        <wgdescription>Web Authorization Protocol WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>204 B</room>
+        <area>TSV</area>
+        <wgname>mptcp</wgname>
+        <wgdescription>Multipath TCP WG</wgdescription>
+      </meeting>
+    </slot>
+    <slot>
+      <start>1130</start>
+      <end>1300</end>
+      <what>Break</what>
+    </slot>
+    <slot>
+      <start>1300</start>
+      <end>1500</end>
+      <what>Afternoon Session I</what>
+      <meeting>
+        <room>202</room>
+        <area>APP</area>
+        <wgname>core</wgname>
+        <wgdescription>Constrained RESTful Environments WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>INT</area>
+        <wgname>homenet</wgname>
+        <wgdescription>Home Networking WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2101</room>
+        <area>OPS</area>
+        <wgname>ipfix</wgname>
+        <wgdescription>IP Flow Information Export WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>204 B</room>
+        <area>RAI</area>
+        <wgname>cuss</wgname>
+        <wgdescription>Call Control UUI Service for SIP WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>RTG</area>
+        <wgname>karp</wgname>
+        <wgdescription>Keying and Authentication for Routing Protocols WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 B</room>
+        <area>RTG</area>
+        <wgname>mpls</wgname>
+        <wgdescription>Multiprotocol Label Switching WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2103</room>
+        <area>SEC</area>
+        <wgname>nea</wgname>
+        <wgdescription>Network Endpoint Assessment WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>205 ABC</room>
+        <area>TSV</area>
+        <wgname>conex</wgname>
+        <wgdescription>Congestion Exposure WG</wgdescription>
+      </meeting>
+    </slot>
+    <slot>
+      <start>1510</start>
+      <end>1610</end>
+      <what>Afternoon Session II</what>
+      <meeting>
+        <room>2101</room>
+        <area>APP</area>
+        <wgname>sieve</wgname>
+        <wgdescription>Sieve Mail Filtering Language WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>OPS</area>
+        <wgname>6renum</wgname>
+        <wgdescription>IPv6 Site Renumbering WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>205 ABC</room>
+        <area>RAI</area>
+        <wgname>avtext</wgname>
+        <wgdescription>Audio/Video Transport Extensions WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>202</room>
+        <area>RTG</area>
+        <wgname>rtgwg</wgname>
+        <wgdescription>Routing Area Working Group WG - Moved FROM Thursday Afternoon Session I 1300-1500</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>SEC</area>
+        <wgname>cicm</wgname>
+        <wgdescription>Common Interface to Cryptographic Modules BOF</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 B</room>
+        <area>TSV</area>
+        <wgname>behave</wgname>
+        <wgdescription>Behavior Engineering for Hindrance Avoidance WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2103</room>
+        <area>TSV</area>
+        <wgname>nfsv4</wgname>
+        <wgdescription>Network File System Version 4 WG</wgdescription>
+      </meeting>
+    </slot>
+    <slot>
+      <start>1610</start>
+      <end>1630</end>
+      <what>Afternoon Beverage and Snack Break I - 2000 BC</what>
+    </slot>
+    <slot>
+      <start>1630</start>
+      <end>1930</end>
+      <what>IETF Operations and Administration Plenary - 200 AB</what>
+    </slot>
+  </Wednesday>
+  <Thursday>
+    <slot>
+      <start>0800</start>
+      <end>1700</end>
+      <what>IETF Registration - 2000 A</what>
+    </slot>
+    <slot>
+      <start>0800</start>
+      <end>0900</end>
+      <what>Continental Breakfast - 2000 BC</what>
+    </slot>
+    <slot>
+      <start>0900</start>
+      <end>1130</end>
+      <what>Morning Session I</what>
+      <meeting>
+        <room>204 B</room>
+        <area>INT</area>
+        <wgname>dhc</wgname>
+        <wgdescription>Dynamic Host Configuration WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>OPS</area>
+        <wgname>mboned</wgname>
+        <wgdescription>MBONE Deployment WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>RAI</area>
+        <wgname>clue</wgname>
+        <wgdescription>ControLling mUltiple streams for tElepresence WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 B</room>
+        <area>RTG</area>
+        <wgname>sidr</wgname>
+        <wgdescription>Secure Inter-Domain Routing WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>205 ABC</room>
+        <area>TSV</area>
+        <wgname>tsvarea</wgname>
+        <wgdescription>Transport Area Open Meeting </wgdescription>
+      </meeting>
+    </slot>
+    <slot>
+      <start>1130</start>
+      <end>1300</end>
+      <what>Break</what>
+    </slot>
+    <slot>
+      <start>1300</start>
+      <end>1500</end>
+      <what>Afternoon Session I</what>
+      <meeting>
+        <room>204 B</room>
+        <area>APP</area>
+        <wgname>precis</wgname>
+        <wgdescription>Preparation and Comparison of Internationalized Strings WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>202</room>
+        <area>INT</area>
+        <wgname>netext</wgname>
+        <wgdescription>Network-Based Mobility Extensions WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2101</room>
+        <area>OPS</area>
+        <wgname>bmwg</wgname>
+        <wgdescription>Benchmarking Methodology WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2103</room>
+        <area>OPS</area>
+        <wgname>dime</wgname>
+        <wgdescription>Diameter Maintenance and Extensions WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>205 ABC</room>
+        <area>RAI</area>
+        <wgname>rtcweb</wgname>
+        <wgdescription>Real-Time Communication in WEB-browsers WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>RTG</area>
+        <wgname>ccamp</wgname>
+        <wgdescription>Common Control and Measurement Plane WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>RTG</area>
+        <wgname>l2vpn</wgname>
+        <wgdescription>Layer 2 Virtual Private Networks WG - Moved FROM Wednesday Afteroon Session II 1510-1610.  Friday session CANCELLED.</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 B</room>
+        <area>SEC</area>
+        <wgname>saag</wgname>
+        <wgdescription>Security Area Open Meeting </wgdescription>
+      </meeting>
+    </slot>
+    <slot>
+      <start>1500</start>
+      <end>1520</end>
+      <what>Afternoon Beverage Break I - 2000 BC</what>
+    </slot>
+    <slot>
+      <start>1520</start>
+      <end>1720</end>
+      <what>Afternoon Session II</what>
+      <meeting>
+        <room>2103</room>
+        <area>INT</area>
+        <wgname>tictoc</wgname>
+        <wgdescription>Timing over IP Connection and Transfer of Clock WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>205 ABC</room>
+        <area>OPS</area>
+        <wgname>v6ops</wgname>
+        <wgdescription>IPv6 Operations WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2101</room>
+        <area>RAI</area>
+        <wgname>siprec</wgname>
+        <wgdescription>SIP Recording WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>RTG</area>
+        <wgname>ospf</wgname>
+        <wgdescription>Open Shortest Path First IGP WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>202</room>
+        <area>RTG</area>
+        <wgname>pce</wgname>
+        <wgdescription>Path Computation Element WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>204 B</room>
+        <area>SEC</area>
+        <wgname>hokey</wgname>
+        <wgdescription>Handover Keying WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>SEC</area>
+        <wgname>tls</wgname>
+        <wgdescription>Transport Layer Security WG</wgdescription>
+      </meeting>
+    </slot>
+    <slot>
+      <start>1720</start>
+      <end>1740</end>
+      <what>Afternoon Beverage and Snack Break II - 2000 BC</what>
+    </slot>
+    <slot>
+      <start>1740</start>
+      <end>1940</end>
+      <what>Afternoon Session III</what>
+      <meeting>
+        <room>202</room>
+        <area>APP</area>
+        <wgname>hybi</wgname>
+        <wgdescription>BiDirectional or Server-Initiated HTTP WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>INT</area>
+        <wgname>mif</wgname>
+        <wgdescription>Multiple Interfaces WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>204 B</room>
+        <area>OPS</area>
+        <wgname>eman</wgname>
+        <wgdescription>Energy Management WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>RAI</area>
+        <wgname>codec</wgname>
+        <wgdescription>Internet Wideband Audio Codec WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>205 ABC</room>
+        <area>RTG</area>
+        <wgname>rtgarea</wgname>
+        <wgdescription>Routing Area Open Meeting </wgdescription>
+      </meeting>
+      <meeting>
+        <room>2101</room>
+        <area>SEC</area>
+        <wgname>kitten</wgname>
+        <wgdescription>Common Authentication Technology Next Generation WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 B</room>
+        <area>TSV</area>
+        <wgname>cdni</wgname>
+        <wgdescription>Content Delivery Networks Interconnection WG</wgdescription>
+      </meeting>
+    </slot>
+  </Thursday>
+  <Friday>
+    <slot>
+      <start>0800</start>
+      <end>1100</end>
+      <what>IETF Registration - 2000 A</what>
+    </slot>
+    <slot>
+      <start>0800</start>
+      <end>0900</end>
+      <what>Continental Breakfast - 2000 BC</what>
+    </slot>
+    <slot>
+      <start>0900</start>
+      <end>1130</end>
+      <what>Morning Session I</what>
+      <meeting>
+        <room>2103</room>
+        <area>INT</area>
+        <wgname>ancp</wgname>
+        <wgdescription>Access Node Control Protocol WG - CANCELED</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>INT</area>
+        <wgname>lwig</wgname>
+        <wgdescription>Light-Weight Implementation Guidance WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>205 ABC</room>
+        <area>OPS</area>
+        <wgname>armd</wgname>
+        <wgdescription>Address Resolution for Massive numbers of hosts in the Data center WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>RAI</area>
+        <wgname>mmusic</wgname>
+        <wgdescription>Multiparty Multimedia Session Control WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>202</room>
+        <area>RAI</area>
+        <wgname>p2psip</wgname>
+        <wgdescription>Peer-to-Peer Session Initiation Protocol WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>204 B</room>
+        <area>SEC</area>
+        <wgname>abfab</wgname>
+        <wgdescription>Application Bridging for Federated Access Beyond web WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 B</room>
+        <area>TSV</area>
+        <wgname>tsvwg</wgname>
+        <wgdescription>Transport Area Working Group WG</wgdescription>
+      </meeting>
+    </slot>
+    <slot>
+      <start>1130</start>
+      <end>1300</end>
+      <what>Break</what>
+    </slot>
+    <slot>
+      <start>1300</start>
+      <end>1400</end>
+      <what>Afternoon Session I</what>
+      <meeting>
+        <room>2103</room>
+        <area>APP</area>
+        <wgname>iri</wgname>
+        <wgdescription>Internationalized Resource Identifiers WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>204 B</room>
+        <area>RAI</area>
+        <wgname>atoca</wgname>
+        <wgdescription>Authority-to-Citizen Alert WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>202</room>
+        <area>RAI</area>
+        <wgname>vipr</wgname>
+        <wgdescription>Verification Involving PSTN Reachability WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>RTG</area>
+        <wgname>roll</wgname>
+        <wgdescription>Routing Over Low power and Lossy networks WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>SEC</area>
+        <wgname>dane</wgname>
+        <wgdescription>DNS-based Authentication of Named Entities WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2101</room>
+        <area>TSV</area>
+        <wgname>rmt</wgname>
+        <wgdescription>Reliable Multicast Transport WG</wgdescription>
+      </meeting>
+    </slot>
+    <slot>
+      <start>1415</start>
+      <end>1515</end>
+      <what>Afternoon Session II</what>
+      <meeting>
+        <room>2103</room>
+        <area>APP</area>
+        <wgname>iri</wgname>
+        <wgdescription>Internationalized Resource Identifiers WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>204 B</room>
+        <area>RAI</area>
+        <wgname>simple</wgname>
+        <wgdescription>SIP for Instant Messaging and Presence Leveraging Extensions WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>2101</room>
+        <area>RAI</area>
+        <wgname>splices</wgname>
+        <wgdescription>looSely-couPLed sIp deviCES WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>208 AB</room>
+        <area>RTG</area>
+        <wgname>roll</wgname>
+        <wgdescription>Routing Over Low power and Lossy networks WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>206 A</room>
+        <area>SEC</area>
+        <wgname>dane</wgname>
+        <wgdescription>DNS-based Authentication of Named Entities WG</wgdescription>
+      </meeting>
+    </slot>
+  </Friday>
+</ietfschedule>

@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
+        <file>agenda.xml</file>
         <file>logo-banner.png</file>
         <file>logo-banner-50.png</file>
         <file>back.png</file>
