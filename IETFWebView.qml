@@ -5,6 +5,8 @@ import QtWebKit 1.0
 Page {
     id: idview
     property string wgName
+    property string webPrefix: "https://datatracker.ietf.org/wg/"
+    property string webSuffix: "/"
 
     onWgNameChanged: {
         console.log("here: " + wgName)
@@ -23,7 +25,7 @@ Page {
         WebView {
             id: draftwebview
             property string wgName
-            url: "https://datatracker.ietf.org/wg/"+ wgName + "/"
+            url: webPrefix + wgName + webSuffix
             preferredWidth: parent.width
             preferredHeight: 1280
             scale: 1.0

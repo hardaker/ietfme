@@ -114,7 +114,7 @@ Page {
        room: roomName
     }
 
-    IdView {
+    IETFWebView {
         id: idview
         wgName: wgName
     }
