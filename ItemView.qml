@@ -87,7 +87,7 @@ Page {
         Image {
             id: map
             anchors.top:  parent.top
-            width: parent.width
+            width: daytitle.width
             source: "maps/" + roomName.text + ".png"
             fillMode: Image.PreserveAspectFit
         }
