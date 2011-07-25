@@ -33,3 +33,7 @@ include(qmlapplicationviewer/qmlapplicationviewer.pri)
 qtcAddDeployment()
 
 #OTHER_FILES += 
+
+OTHER_FILES += \
+    MapView.qml \
+    IdView.qml

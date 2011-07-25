@@ -1,6 +1,5 @@
 import QtQuick 1.0
 import Qt.labs.components.native 1.0
-import QtWebKit 1.0
 
 Page {
     anchors { fill: parent }
@@ -75,29 +74,18 @@ Page {
         anchors.top: roomName.bottom
     }
 
-    Flickable {
-        id: scrollstuff
-        anchors.top:  area.bottom
+    PageStack {
+        id: itempages
         width: parent.width
-        height: 600
-        contentWidth: 1024
-        contentHeight: 4096
-        z: -1
+        anchors.top: area.bottom
+    }
 
-        Image {
-            id: map
-            anchors.top:  parent.top
-            width: daytitle.width
-            source: "maps/" + roomName.text + ".png"
-            fillMode: Image.PreserveAspectFit
-        }
+    MapView {
+       id: mapview
+    }
 
-        WebView {
-            anchors.top:  map.bottom
-            url: "https://datatracker.ietf.org/wg/netconf/"
-            preferredWidth: parent.width
-            preferredHeight: 1280
-            scale: 1.0
-        }
+    Component.onCompleted: {
+        itempages.clear();
+        itempages.push(mapview);
     }
 }
