@@ -10,12 +10,14 @@
         <file>DaysListModel.qml</file>
         <file>Days.qml</file>
         <file>DayView.qml</file>
-        <file>ItemView.qml</file>
         <file>SlotModel.qml</file>
         <file>SlotView.qml</file>
         <file>Top.qml</file>
         <file>TitleBar.qml</file>
+
+        <file>ItemView.qml</file>
 	<file>MapView.qml</file>
+	<file>IDView.qml</file>
 
         <file>maps/maplv2.png</file>
         <file>maps/maplv3.png</file>
