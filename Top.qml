@@ -32,9 +32,10 @@ Window {
 
        ItemView {
            id: itemview
+           roomName: parent.roomName
        }
 
        Component.onCompleted: {
-         pages.push(days);
+           pages.push(days);
        }
 }

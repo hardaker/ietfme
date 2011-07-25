@@ -5,11 +5,11 @@ Page {
     anchors { fill: parent }
 
     property alias daytitle: daytitle.text
-    property alias itemWGName: itemWGName.text
+    property alias wgName: itemWGName.text
     property alias description: description.text
-    property alias roomName: roomName.text
     property alias area: area.text
     property alias slotname: slottitle.text
+    property string roomName
 
     TitleBar {
         id: daytitle
@@ -56,22 +56,22 @@ Page {
     }
 
     Text {
-        id: roomName
+        id: roomNameObj
         x: itemWGName.x
-        text: "room"
+        text: roomName
         anchors.top: description.bottom
     }
 
     Text {
         text: "Area:"
-        anchors.top:  roomName.bottom
+        anchors.top:  roomNameObj.bottom
     }
 
     Text {
         id: area
         x: itemWGName.x
         text: "area"
-        anchors.top: roomName.bottom
+        anchors.top: roomNameObj.bottom
     }
 
     //
@@ -93,12 +93,6 @@ Page {
         whereto: idview
     }
 
-    ItemButton {
-        text: "test"
-        anchors.left: draftsButton.right
-        anchors.top:  area.bottom
-    }
-
     //
     // Pages
     //
@@ -107,11 +101,12 @@ Page {
         id: itempages
         width: parent.width
         anchors.top: mapButton.bottom
-        z: -1
+        z: -10
     }
 
     MapView {
        id: mapview
+       room: roomName
     }
 
     IdView {

@@ -46,7 +46,7 @@ Page {
                     anchors { fill: parent }
                     onClicked: {
                         itemview.daytitle = daytitle.text
-                        itemview.itemWGName = wgname
+                        itemview.wgName = wgname
                         itemview.description = wgdescription
                         itemview.area = area
                         itemview.roomName = room
@@ -64,12 +64,11 @@ Page {
                     anchors { fill: parent }
                     onClicked: {
                         itemview.daytitle = daytitle.text
-                        itemview.itemWGName = wgname
+                        itemview.wgName = wgname
                         itemview.description = wgdescription
                         itemview.area = area
                         itemview.roomName = room
                         itemview.slotname = slotview.slotname
-
                         pages.push(itemview);
                     }
                 }
