@@ -50,7 +50,7 @@
     <slot>
       <start>1600</start>
       <end>1700</end>
-      <what>Newcomer's Meet and Greet (open to newcomers and WG chairs) - Verriere - 3rd Floor</what>
+      <what>Newcomer's Meet and Greet (open to newcomers and WG chairs) - Verriere/Solarium - 3rd Floor</what>
     </slot>
     <slot>
       <start>1700</start>
@@ -263,7 +263,7 @@
         <room>205 ABC</room>
         <area>OPS</area>
         <wgname>v6ops</wgname>
-        <wgdescription>IPv6 Operations WG</wgdescription>
+        <wgdescription>IPv6 Operations WG - Friday Afternoon Session runs until 1515</wgdescription>
       </meeting>
       <meeting>
         <room>206 A</room>
@@ -751,7 +751,7 @@
         <room>205 ABC</room>
         <area>OPS</area>
         <wgname>v6ops</wgname>
-        <wgdescription>IPv6 Operations WG</wgdescription>
+        <wgdescription>IPv6 Operations WG - Friday Afternoon Session runs until 1515</wgdescription>
       </meeting>
       <meeting>
         <room>2101</room>
@@ -909,6 +909,12 @@
         <area>APP</area>
         <wgname>iri</wgname>
         <wgdescription>Internationalized Resource Identifiers WG</wgdescription>
+      </meeting>
+      <meeting>
+        <room>205 ABC</room>
+        <area>OPS</area>
+        <wgname>v6ops</wgname>
+        <wgdescription>IPv6 Operations WG - Friday Afternoon Session runs until 1515</wgdescription>
       </meeting>
       <meeting>
         <room>204 B</room>
