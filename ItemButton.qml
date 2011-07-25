@@ -7,6 +7,7 @@ Rectangle {
     anchors.rightMargin: 4
     anchors.leftMargin: 4
     anchors.topMargin: 2
+    anchors.bottomMargin: 2
 
     width:        thebutton.width
     height:       thebutton.height
